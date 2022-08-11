@@ -1,0 +1,17 @@
+RM_UI_Simulator version: 3.0.0-alpha
+build: true
+build_path: cmake-build
+c_compiler_path: ''
+cmake_path: cmake
+cxx_compiler_path: ''
+inc_files:
+- widgets/circle_and_line.h
+- core/main.h
+- core/data_tool.h
+link_files: []
+project_name: sample_ui_project
+src_files:
+- widgets/circle_and_line.c
+- core/main.c
+- core/data_tool.c
+variables file: .pyRM_UI_Simulator\var.yml
